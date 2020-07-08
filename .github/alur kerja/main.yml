@@ -1,0 +1,33 @@
+# This is a basic workflow to help you get started with Actions
+
+name:https://www.youtube.com/channel/UCA1Afefyj5kvKME_TRN28Og
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:<script src="https://apis.google.com/js/platform.js"></script> <div class="g-ytsubscribe" data-channelid="UCA1Afefyj5kvKME_TRN28Og" data-layout="full" data-count="hidden"></div>
+  push:[https://m.facebook.com/ujiumak.min]><[https://m.instagram.com/kamal_avatar
+    branches: [ master ]
+  pull_request:https://www.youtube.com/channel/UCA1Afefyj5kvKME_TRN28Og
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:https://www.youtube.com/channel/UCA1Afefyj5kvKME_TRN28Og
+  # This workflow contains a single job called "build"
+  build:<script src="https://apis.google.com/js/platform.js"></script> <div class="g-ytsubscribe" data-channelid="UCA1Afefyj5kvKME_TRN28Og" data-layout="full" data-count="hidden"></div>
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:https://www.youtube.com/channel/UCA1Afefyj5kvKME_TRN28Og
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    # Runs a single command using the runners shell
+    - name: Run a one-line script
+      run: echo Hello, world!
+
+    # Runs a set of commands using the runners shell
+    - name: Run a multi-line script
+      run: |<script src="https://apis.google.com/js/platform.js"></script> <div class="g-ytsubscribe" data-channelid="UCA1Afefyj5kvKME_TRN28Og" data-layout="full" data-count="hidden"></div>
+        echo Add other actions to build,
+        echo test, and deploy your project.
